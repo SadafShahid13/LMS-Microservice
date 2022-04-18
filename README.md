@@ -1,5 +1,4 @@
 # LMS-Microservice
-## An LMS With smart proctoring implemented with microservice
 
 ## Instructions on how to use this Repository
 ### Setting Up
