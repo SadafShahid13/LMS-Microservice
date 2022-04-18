@@ -13,4 +13,6 @@
 2. Mount a drive to the notebook.
 3. Take a forward facing image of a person and copy its path
 4. Paste it in the 3rd cell.
-5. Run all the cells in sequence.
+5. Also take the shape_predictor and upload to google drive.
+6. Copy its path and paste it in the 4th cell.
+7. Run all the cells in sequence.
