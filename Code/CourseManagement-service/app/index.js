@@ -90,10 +90,11 @@ app.get("/viewstudents", (req,res)=>{
                 const thisClass = student.class;
                 assignmentsData.forEach(assignment=>{
                     if(thisClass == assignment.class){
-                        list.add({student, assignment});
+                        list.push({student, assignment});
                     }
                 })
             })
+            console.log({list});
             res.render("viewStudentsPage.ejs", {list:list});
         }).catch((error)=>{
             console.log("Assignments Info Error", error);
