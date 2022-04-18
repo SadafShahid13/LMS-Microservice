@@ -1,0 +1,24 @@
+{
+  "name": "Microservice-Service_1(video_call)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "app": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quddus1916/Microservice-Service_1-video_call-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quddus1916/Microservice-Service_1-video_call-/issues"
+  },
+  "homepage": "https://github.com/Quddus1916/Microservice-Service_1-video_call-#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

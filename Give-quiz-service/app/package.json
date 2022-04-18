@@ -1,0 +1,24 @@
+{
+  "name": "microservice-service_2(give_quiz)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quddus1916/Microservice-Service_2-give_quiz-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quddus1916/Microservice-Service_2-give_quiz-/issues"
+  },
+  "homepage": "https://github.com/Quddus1916/Microservice-Service_2-give_quiz-#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "description": ""
+}
