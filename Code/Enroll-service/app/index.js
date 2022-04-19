@@ -40,7 +40,7 @@ app.post("/", (req,res)=>{
     })
     .catch((e)=>{console.log(e)});
     
-    res.redirect("http://localhost:1002/")
+    res.redirect("http://localhost:1004/")
 
 })
 
