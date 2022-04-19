@@ -96,6 +96,8 @@ app.get("/viewstudents", (req,res)=>{
             })
             console.log({list});
             res.render("viewStudentsPage.ejs", {list:list});
+            mongoose.connection.close();
+
         }).catch((error)=>{
             console.log("Assignments Info Error", error);
             res.redirect("/");
